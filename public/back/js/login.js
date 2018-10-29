@@ -88,7 +88,7 @@ $(function () {
    			}
    			if (info.error ===1000) {
    				//此时用户名不存在
-   				$("#form").data('bootstrapValidator').updateStatus("uesrname","INVALID","callback")
+   				$("#form").data('bootstrapValidator').updateStatus("username","INVALID","callback")
    			}
    			
    			if (info.error ===1001) {
